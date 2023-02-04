@@ -1,0 +1,28 @@
+.pt-8 {
+  padding-top: 8px;
+}
+
+.pt-18 {
+  padding-top: 18px;
+}
+
+.pt-180 {
+  padding-top: 180px;
+}
+
+.hero:hover {
+  color: blue;
+}
+.hero .representative-header {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+.hero .representative-main {
+  background-color: green;
+}
+.hero .representative-footer {
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

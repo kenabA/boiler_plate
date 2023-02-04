@@ -1,0 +1,39 @@
+$primary:blue;
+
+$custom-space:(
+    "8":8px,
+    "18":18px,
+    "180":180px,
+);
+
+
+@each $space,$value in $custom-space{
+    .pt-#{$space}{
+        padding-top:#{$value}
+    }
+}
+
+.hero{
+    &:hover{
+        color: blue;
+    }
+    .representative{
+        &-header{
+            background-color: $primary;
+            height: 200px;
+            width: 200px;
+        }
+        &-main{
+            background-color: green;
+        }
+        &-footer{
+            background-color: green;
+        }
+    }
+    
+}
+
+
+.about{
+
+}
